@@ -3,6 +3,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 require("dotenv").config();
 
+const authenticateRouter = require("./routes/authenticate.route");
 const registerRouter = require("./routes/register.route");
 const app = express();
 const PORT = 3000;
@@ -16,6 +17,7 @@ app.use(cors());
 
 app.use(express.json());
 
+app.use("/authenticate", authenticateRouter);
 app.use("/register", registerRouter);
 
 app.all("*", (req, res) => {
