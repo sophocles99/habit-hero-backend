@@ -7,29 +7,23 @@ const registerUser = async (req, res) => {
     return res.status(400).send({ error: error.details[0].message });
   }
 
-  const { username, email, password } = req.body;
-  let user = await User.findOne({ username });
-  if (user) {
-    console.log(user)
-    return res.status(400).send({ error: "Username already in use" });
-  }
-  user = await User.findOne({ email });
+  const { email, password } = req.body;
+  let user = await User.findOne({ email });
   if (user) {
     return res.status(400).send({ error: "Email already in use" });
   }
 
-  user = new User({ username, email, password });
+  user = new User({ email, password });
   try {
     user.password = await bcrypt.hash(password, 10);
     await user.save();
     // send access and refresh tokens for newly-registered user
-    const accessToken = user.generateAccessToken();
-    const refreshToken = user.generateRefreshToken();
+    const { accessToken, refreshToken } = user.generateTokens();
     res.cookie("jwt", refreshToken, {
       httpOnly: true,
       maxAge: 24 * 60 * 60 * 1000,
     });
-    res.send({message: `User ${username} registered`, accessToken });
+    res.send({ message: "New user registered", accessToken });
   } catch (error) {
     return res.status(500).send({ error: error.message });
   }
