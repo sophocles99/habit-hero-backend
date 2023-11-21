@@ -1,4 +1,5 @@
 const Joi = require("joi");
+const jwt = require("jsonwebtoken");
 const mongoose = require("mongoose");
 
 const userSchema = new mongoose.Schema({
@@ -25,8 +26,14 @@ const userSchema = new mongoose.Schema({
 });
 
 userSchema.methods.generateAccessToken = function () {
-  jwt.sign({ _id: this._id }, process.env.ACCESS_TOKEN_SECRET, {
+  return jwt.sign({ _id: this._id }, process.env.ACCESS_TOKEN_SECRET, {
     expiresIn: "30s",
+  });
+};
+
+userSchema.methods.generateRefreshToken = function () {
+  return jwt.sign({ _id: this._id }, process.env.REFRESH_TOKEN_SECRET, {
+    expiresIn: "1d",
   });
 };
 
@@ -34,7 +41,7 @@ const User = mongoose.model("User", userSchema);
 
 const validateUser = (user) => {
   const schema = Joi.object({
-    username: Joi.string().alphanum.min(5).max(20).required(),
+    username: Joi.string().alphanum().min(5).max(20).required(),
     email: Joi.string().min(5).max(255).required(),
     password: Joi.string().min(8).max(60).required(),
   });
