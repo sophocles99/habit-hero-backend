@@ -1,7 +1,7 @@
 const bcrypt = require("bcrypt");
 const { User, validateUser } = require("../models/user.model");
 
-const authenticate = async (req, res) => {
+const auth = async (req, res) => {
   const { error } = validateUser(req.body);
   if (error) {
     return res.status(400).send({ error: error.details[0].message });
@@ -29,4 +29,4 @@ const authenticate = async (req, res) => {
   }
 };
 
-module.exports = authenticate;
+module.exports = auth;

@@ -1,21 +1,18 @@
 const Joi = require("joi");
 const jwt = require("jsonwebtoken");
 const mongoose = require("mongoose");
+const { habitSchema } = require("./habit.model");
 
 const userSchema = new mongoose.Schema({
   email: {
     type: String,
-    required: true,
     minlength: 5,
     maxlength: 255,
+    required: true,
     unique: true,
   },
-  password: {
-    type: String,
-    required: true,
-    minlength: 8,
-    maxlength: 60,
-  },
+  password: { type: String, minlength: 8, maxlength: 60, required: true },
+  habits: { type: [habitSchema], default: [] },
 });
 
 userSchema.methods.generateTokens = function () {
