@@ -10,7 +10,7 @@ if (!mongoURI) {
 mongoose
   .connect(mongoURI)
   .then(() => {
-    console.log("Connected to MongoDB");
+    console.log(`Connected to MongoDB at ${mongoURI}`);
   })
   .catch((err) => console.log("Error connecting to MongoDB:", err));
 
