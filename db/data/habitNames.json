@@ -1,0 +1,35 @@
+{
+  "positive": [
+    "Rise early",
+    "Gratitude",
+    "Hydrate",
+    "Healthy breakfast",
+    "Exercise",
+    "Sleep well",
+    "Mindfulness",
+    "Limit screen time",
+    "Plan day",
+    "Take breaks",
+    "Learning",
+    "Deep breathing",
+    "Good posture",
+    "Social connection",
+    "Goal setting",
+    "Time management",
+    "Volunteer",
+    "Journal",
+    "Declutter",
+    "Active listening",
+    "Portion control",
+    "Reading"
+  ],
+  "negative": [
+    "Processed foods",
+    "Alcohol",
+    "Smoking",
+    "Cooking",
+    "Sugar",
+    "Caffeine",
+    "Multitasking"
+  ]
+}

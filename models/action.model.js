@@ -6,7 +6,8 @@ const actionSchema = new mongoose.Schema({
   isDone: { type: Boolean, required: true },
 });
 
-const Action = mongoose.model("Action", actionSchema);
+// Don't define Action model - avoids creating separate empty collection
+// const Action = mongoose.model("Action", actionSchema);
 
 const validateAction = (action) => {
   const schema = new Joi.object({
@@ -16,4 +17,5 @@ const validateAction = (action) => {
   return schema.validate(action);
 };
 
-module.exports = { Action, actionSchema, validateAction };
+// module.exports = { Action, actionSchema, validateAction };
+module.exports = { actionSchema, validateAction };

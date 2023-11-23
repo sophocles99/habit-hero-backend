@@ -8,7 +8,8 @@ const habitSchema = new mongoose.Schema({
   actions: [actionSchema],
 });
 
-const Habit = mongoose.model("Habit", habitSchema);
+// Don't define Habit model - avoids creating separate empty collection
+// const Habit = mongoose.model("Habit", habitSchema);
 
 const validateHabit = (habit) => {
   const schema = new Joi.object({
@@ -17,4 +18,5 @@ const validateHabit = (habit) => {
   });
 };
 
-module.exports = { Habit, habitSchema, validateHabit };
+// module.exports = { Habit, habitSchema, validateHabit };
+module.exports = { habitSchema, validateHabit };

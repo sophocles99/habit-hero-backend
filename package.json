@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon listen.js",
     "generate": "node db/data/generateData.js",
-    "seed": "node db/seed.js",
+    "seed": "node db/run-seed.js",
     "start": "node listen.js",
     "test": "jest"
   },
