@@ -6,6 +6,9 @@ const data = require(`./data/data.${ENV}.json`);
 
 const seed = async () => {
   try {
+    if (!mongoose.connection.readyState){
+      throw new Error('Must connect to database before running seed function')
+    }
     await connection.collection("users").drop();
     await User.insertMany(data);
   } catch (error) {
