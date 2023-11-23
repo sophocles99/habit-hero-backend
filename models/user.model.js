@@ -1,3 +1,4 @@
+const bcrypt = require("bcrypt");
 const Joi = require("joi");
 const jwt = require("jsonwebtoken");
 const mongoose = require("mongoose");
@@ -14,6 +15,10 @@ const userSchema = new mongoose.Schema({
   password: { type: String, minlength: 8, maxlength: 60, required: true },
   habits: { type: [habitSchema], default: [] },
 });
+
+userSchema.methods.hashPassword = async function () {
+  this.password = await bcrypt.hash(this.password, 10);
+};
 
 userSchema.methods.generateTokens = function () {
   const accessToken = jwt.sign(

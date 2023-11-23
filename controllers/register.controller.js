@@ -15,7 +15,7 @@ const register = async (req, res) => {
 
   user = new User({ email, password });
   try {
-    user.password = await bcrypt.hash(password, 10);
+    await user.hashPassword();
     await user.save();
     const { accessToken, refreshToken } = user.generateTokens();
     res.cookie("jwt", refreshToken, {
