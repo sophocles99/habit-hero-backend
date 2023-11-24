@@ -10,7 +10,7 @@ const register = async (req, res) => {
   const { email, password } = req.body;
   let user = await User.findOne({ email });
   if (user) {
-    return res.status(409).send({ error: "Email already in use" });
+    return res.status(409).send({ error: "Email address is already registered" });
   }
 
   user = new User({ email, password });

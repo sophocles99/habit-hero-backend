@@ -7,8 +7,8 @@ const { habitSchema } = require("./habit.model");
 const userSchema = new mongoose.Schema({
   email: {
     type: String,
-    minlength: 5,
-    maxlength: 255,
+    minlength: 6,
+    maxlength: 254,
     required: true,
     unique: true,
   },
@@ -42,8 +42,36 @@ const User = mongoose.model("User", userSchema);
 
 const validateUser = (user) => {
   const schema = Joi.object({
-    email: Joi.string().min(5).max(255).required(),
-    password: Joi.string().min(8).max(60).required(),
+    email: Joi.string().required().empty("").email().messages({
+      "any.required": "Email is required",
+      "any.empty": "Email is required",
+      "string.email": "Email must be a valid email address",
+    }),
+    password: Joi.string()
+      .required()
+      .empty("")
+      .min(8)
+      .max(30)
+      .pattern(/[a-z]+/)
+      .message({
+        "string.pattern.base":
+          "Password must include at least one lowercase letter",
+      })
+      .pattern(/[A-Z]+/)
+      .message({
+        "string.pattern.base":
+          "Password must include at least one uppercase letter",
+      })
+      .pattern(/[0-9]+/)
+      .message({
+        "string.pattern.base": "Password must include at least one digit",
+      })
+      .messages({
+        "any.required": "Password is required",
+        "any.empty": "Password is required",
+        "string.min": "Password must be at least 8 characters long",
+        "string.max": "Password must not be more than 30 characters long",
+      }),
   });
   return schema.validate(user);
 };
