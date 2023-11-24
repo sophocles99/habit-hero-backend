@@ -1,0 +1,29 @@
+{
+  "GET /api": {
+    "description": "returns list of api endpoints"
+  },
+  "POST /api/user/register": {
+    "description": "registers new user",
+    "request body": {
+      "email": "valid@email.com",
+      "password": "validPassword123"
+    },
+    "response": {
+      "message": "New user registered",
+      "accessToken": "JWT containing _id of new user"
+    },
+    "cookie": "http cookie containing JWT refreshToken"
+  },
+  "POST /api/user/login": {
+    "description": "logs user in",
+    "request body": {
+      "email": "registered@email.com",
+      "password": "matchingPassword123"
+    },
+    "response": {
+      "message": "User logged in",
+      "accessToken": "JWT containing _id of logged-in user"
+    },
+    "cookie": "http cookie containing JWT refreshToken"
+  }
+}

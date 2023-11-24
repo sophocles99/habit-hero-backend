@@ -1,13 +1,11 @@
 const mongoose = require("mongoose");
 const request = require("supertest");
-const seed = require("../db/seed");
 const app = require("../app");
-
-beforeEach(async () => await seed());
+const endpointsFile = require("../endpoints.json");
 
 afterAll(async () => await mongoose.connection.close());
 
-describe.only("General server tests", () => {
+describe("GET /", () => {
   test("404 - returns error for nonexistent page", () => {
     return request(app)
       .get("/notanendpoint")
@@ -15,5 +13,14 @@ describe.only("General server tests", () => {
       .then(({ body }) =>
         expect(body.error).toBe("Sorry, that page does not exist")
       );
+  });
+});
+
+describe("GET /api", () => {
+  test("200 - returns list of api endpoints", () => {
+    return request(app)
+      .get("/api")
+      .expect(200)
+      .then(({ body }) => expect(body.endpoints).toMatchObject(endpointsFile));
   });
 });
