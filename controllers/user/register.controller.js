@@ -22,7 +22,7 @@ const register = async (req, res) => {
       httpOnly: true,
       maxAge: 24 * 60 * 60 * 1000,
     });
-    res.send({ message: "New user registered", accessToken });
+    res.status(201).send({ message: "New user registered", accessToken });
   } catch (error) {
     return res.status(500).send({ error: error.message });
   }
