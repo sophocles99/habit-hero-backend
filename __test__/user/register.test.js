@@ -1,9 +1,9 @@
 const jwt = require("jsonwebtoken");
 const mongoose = require("mongoose");
 const request = require("supertest");
-const app = require("../app");
-const seed = require("../db/seed");
-const testData = require("../db/data/data.test.json");
+const app = require("../../app");
+const seed = require("../../db/seed");
+const testData = require("../../db/data/data.test.json");
 
 beforeEach(async () => await seed());
 
