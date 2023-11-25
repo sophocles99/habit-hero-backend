@@ -25,7 +25,7 @@ userSchema.methods.generateTokens = function () {
     { _id: this._id },
     process.env.ACCESS_TOKEN_SECRET,
     {
-      expiresIn: "30s",
+      expiresIn: "5m",
     }
   );
   const refreshToken = jwt.sign(
