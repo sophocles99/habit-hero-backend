@@ -18,9 +18,16 @@ fs.writeFile(`${__dirname}/data.development.json`, JSON.stringify(devData));
 function generateData({ users, maxHabits, maxActions }) {
   const data = [];
   for (let i = 0; i < users; i++) {
+    const passwordLength = Math.floor(Math.random() * 23 + 8);
+    let password = "";
+    do {
+      password = faker.internet.password({
+        length: passwordLength,
+      });
+    } while (!/(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])/.test(password));
     const newUser = {
       email: faker.internet.email(),
-      password: faker.internet.password({ length: 10, memorable: true }),
+      password: password,
       habits: [],
     };
 

@@ -35,7 +35,7 @@ describe("POST /api/user/register", () => {
       .expect(201)
       .then(({ body }) => {
         expect(body).toHaveProperty("accessToken");
-        // Strictly speaking this rest of this test tests the generateTokens
+        // Strictly speaking the rest of this test tests the generateTokens
         // method, not the server
         const { accessToken } = body;
         const decodedToken = jwt.verify(accessToken, "testAccessTokenSecret");

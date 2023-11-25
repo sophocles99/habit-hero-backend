@@ -10,7 +10,7 @@ const seed = async () => {
       throw new Error("Must connect to database before running seed function");
     }
     await connection.collection("users").drop();
-    // Use for...of instead of forEach to wait for each iteration to complete
+    // Use for...of instead of forEach, to wait for each iteration to complete
     for (const userObject of data) {
       newUser = new User(userObject);
       await newUser.hashPassword();

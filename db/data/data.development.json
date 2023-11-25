@@ -1,1 +1,756 @@
-[{"email":"Ulises35@hotmail.com","password":"tarinoxize","habits":[{"name":"Procrastinate","type":"negative","actions":[{"date":"2023-10-23T23:00:00.000Z","isDone":true},{"date":"2023-10-24T23:00:00.000Z","isDone":false},{"date":"2023-10-25T23:00:00.000Z","isDone":true},{"date":"2023-10-27T23:00:00.000Z","isDone":false},{"date":"2023-11-01T00:00:00.000Z","isDone":true},{"date":"2023-11-04T00:00:00.000Z","isDone":true},{"date":"2023-11-08T00:00:00.000Z","isDone":true},{"date":"2023-11-09T00:00:00.000Z","isDone":true},{"date":"2023-11-11T00:00:00.000Z","isDone":true},{"date":"2023-11-12T00:00:00.000Z","isDone":false},{"date":"2023-11-14T00:00:00.000Z","isDone":false},{"date":"2023-11-17T00:00:00.000Z","isDone":false},{"date":"2023-11-21T00:00:00.000Z","isDone":false},{"date":"2023-11-23T00:00:00.000Z","isDone":false}]},{"name":"Sugar","type":"negative","actions":[{"date":"2023-10-22T23:00:00.000Z","isDone":true},{"date":"2023-10-23T23:00:00.000Z","isDone":true},{"date":"2023-10-24T23:00:00.000Z","isDone":false},{"date":"2023-10-25T23:00:00.000Z","isDone":false},{"date":"2023-10-26T23:00:00.000Z","isDone":true},{"date":"2023-10-27T23:00:00.000Z","isDone":false},{"date":"2023-10-28T23:00:00.000Z","isDone":false},{"date":"2023-10-30T00:00:00.000Z","isDone":false},{"date":"2023-10-31T00:00:00.000Z","isDone":false},{"date":"2023-11-01T00:00:00.000Z","isDone":true},{"date":"2023-11-02T00:00:00.000Z","isDone":false},{"date":"2023-11-03T00:00:00.000Z","isDone":false},{"date":"2023-11-04T00:00:00.000Z","isDone":true},{"date":"2023-11-05T00:00:00.000Z","isDone":false},{"date":"2023-11-06T00:00:00.000Z","isDone":true},{"date":"2023-11-07T00:00:00.000Z","isDone":false},{"date":"2023-11-08T00:00:00.000Z","isDone":false},{"date":"2023-11-09T00:00:00.000Z","isDone":true},{"date":"2023-11-10T00:00:00.000Z","isDone":true},{"date":"2023-11-11T00:00:00.000Z","isDone":true},{"date":"2023-11-12T00:00:00.000Z","isDone":false},{"date":"2023-11-13T00:00:00.000Z","isDone":false},{"date":"2023-11-14T00:00:00.000Z","isDone":true},{"date":"2023-11-15T00:00:00.000Z","isDone":false},{"date":"2023-11-16T00:00:00.000Z","isDone":true},{"date":"2023-11-19T00:00:00.000Z","isDone":true},{"date":"2023-11-20T00:00:00.000Z","isDone":true},{"date":"2023-11-21T00:00:00.000Z","isDone":true},{"date":"2023-11-22T00:00:00.000Z","isDone":true},{"date":"2023-11-23T00:00:00.000Z","isDone":false}]}]},{"email":"Jacklyn58@hotmail.com","password":"barihulawo","habits":[{"name":"Smoking","type":"negative","actions":[{"date":"2023-10-24T23:00:00.000Z","isDone":true},{"date":"2023-10-26T23:00:00.000Z","isDone":false},{"date":"2023-10-31T00:00:00.000Z","isDone":false},{"date":"2023-11-03T00:00:00.000Z","isDone":false},{"date":"2023-11-04T00:00:00.000Z","isDone":false},{"date":"2023-11-09T00:00:00.000Z","isDone":false},{"date":"2023-11-10T00:00:00.000Z","isDone":true},{"date":"2023-11-13T00:00:00.000Z","isDone":false},{"date":"2023-11-14T00:00:00.000Z","isDone":true},{"date":"2023-11-18T00:00:00.000Z","isDone":false},{"date":"2023-11-19T00:00:00.000Z","isDone":false},{"date":"2023-11-20T00:00:00.000Z","isDone":false},{"date":"2023-11-21T00:00:00.000Z","isDone":false},{"date":"2023-11-23T00:00:00.000Z","isDone":false}]},{"name":"Alcohol","type":"negative","actions":[{"date":"2023-10-22T23:00:00.000Z","isDone":false},{"date":"2023-10-23T23:00:00.000Z","isDone":true},{"date":"2023-10-24T23:00:00.000Z","isDone":true},{"date":"2023-10-25T23:00:00.000Z","isDone":true},{"date":"2023-10-27T23:00:00.000Z","isDone":false},{"date":"2023-10-28T23:00:00.000Z","isDone":true},{"date":"2023-10-30T00:00:00.000Z","isDone":false},{"date":"2023-10-31T00:00:00.000Z","isDone":false},{"date":"2023-11-01T00:00:00.000Z","isDone":false},{"date":"2023-11-02T00:00:00.000Z","isDone":true},{"date":"2023-11-03T00:00:00.000Z","isDone":false},{"date":"2023-11-05T00:00:00.000Z","isDone":false},{"date":"2023-11-10T00:00:00.000Z","isDone":false},{"date":"2023-11-13T00:00:00.000Z","isDone":false},{"date":"2023-11-14T00:00:00.000Z","isDone":true},{"date":"2023-11-16T00:00:00.000Z","isDone":false},{"date":"2023-11-18T00:00:00.000Z","isDone":false},{"date":"2023-11-22T00:00:00.000Z","isDone":false},{"date":"2023-11-23T00:00:00.000Z","isDone":true}]},{"name":"Goal setting","type":"positive","actions":[{"date":"2023-10-22T23:00:00.000Z","isDone":false},{"date":"2023-10-23T23:00:00.000Z","isDone":true},{"date":"2023-10-24T23:00:00.000Z","isDone":true},{"date":"2023-10-25T23:00:00.000Z","isDone":true},{"date":"2023-10-30T00:00:00.000Z","isDone":true},{"date":"2023-10-31T00:00:00.000Z","isDone":true},{"date":"2023-11-02T00:00:00.000Z","isDone":false},{"date":"2023-11-03T00:00:00.000Z","isDone":true},{"date":"2023-11-04T00:00:00.000Z","isDone":false},{"date":"2023-11-06T00:00:00.000Z","isDone":false},{"date":"2023-11-07T00:00:00.000Z","isDone":true},{"date":"2023-11-10T00:00:00.000Z","isDone":false},{"date":"2023-11-12T00:00:00.000Z","isDone":false},{"date":"2023-11-15T00:00:00.000Z","isDone":false},{"date":"2023-11-16T00:00:00.000Z","isDone":false},{"date":"2023-11-17T00:00:00.000Z","isDone":false},{"date":"2023-11-18T00:00:00.000Z","isDone":true},{"date":"2023-11-19T00:00:00.000Z","isDone":true},{"date":"2023-11-20T00:00:00.000Z","isDone":true},{"date":"2023-11-21T00:00:00.000Z","isDone":false},{"date":"2023-11-22T00:00:00.000Z","isDone":true},{"date":"2023-11-23T00:00:00.000Z","isDone":true}]},{"name":"Smoking","type":"negative","actions":[{"date":"2023-10-22T23:00:00.000Z","isDone":false},{"date":"2023-10-23T23:00:00.000Z","isDone":false},{"date":"2023-10-25T23:00:00.000Z","isDone":true},{"date":"2023-10-27T23:00:00.000Z","isDone":false},{"date":"2023-10-28T23:00:00.000Z","isDone":false},{"date":"2023-10-30T00:00:00.000Z","isDone":false},{"date":"2023-10-31T00:00:00.000Z","isDone":true},{"date":"2023-11-02T00:00:00.000Z","isDone":true},{"date":"2023-11-04T00:00:00.000Z","isDone":false},{"date":"2023-11-05T00:00:00.000Z","isDone":true},{"date":"2023-11-06T00:00:00.000Z","isDone":false},{"date":"2023-11-07T00:00:00.000Z","isDone":false},{"date":"2023-11-08T00:00:00.000Z","isDone":true},{"date":"2023-11-09T00:00:00.000Z","isDone":false},{"date":"2023-11-10T00:00:00.000Z","isDone":true},{"date":"2023-11-11T00:00:00.000Z","isDone":false},{"date":"2023-11-13T00:00:00.000Z","isDone":false},{"date":"2023-11-14T00:00:00.000Z","isDone":false},{"date":"2023-11-15T00:00:00.000Z","isDone":true},{"date":"2023-11-16T00:00:00.000Z","isDone":true},{"date":"2023-11-17T00:00:00.000Z","isDone":false},{"date":"2023-11-19T00:00:00.000Z","isDone":true},{"date":"2023-11-20T00:00:00.000Z","isDone":false},{"date":"2023-11-21T00:00:00.000Z","isDone":true},{"date":"2023-11-22T00:00:00.000Z","isDone":false},{"date":"2023-11-23T00:00:00.000Z","isDone":true}]},{"name":"Smoking","type":"negative","actions":[{"date":"2023-10-22T23:00:00.000Z","isDone":false},{"date":"2023-10-23T23:00:00.000Z","isDone":true},{"date":"2023-10-24T23:00:00.000Z","isDone":false},{"date":"2023-10-26T23:00:00.000Z","isDone":false},{"date":"2023-10-27T23:00:00.000Z","isDone":true},{"date":"2023-10-28T23:00:00.000Z","isDone":false},{"date":"2023-10-31T00:00:00.000Z","isDone":true},{"date":"2023-11-01T00:00:00.000Z","isDone":true},{"date":"2023-11-06T00:00:00.000Z","isDone":true},{"date":"2023-11-07T00:00:00.000Z","isDone":true},{"date":"2023-11-10T00:00:00.000Z","isDone":false},{"date":"2023-11-11T00:00:00.000Z","isDone":false},{"date":"2023-11-12T00:00:00.000Z","isDone":true},{"date":"2023-11-14T00:00:00.000Z","isDone":false},{"date":"2023-11-19T00:00:00.000Z","isDone":true},{"date":"2023-11-20T00:00:00.000Z","isDone":false},{"date":"2023-11-23T00:00:00.000Z","isDone":true}]}]},{"email":"Lonzo48@gmail.com","password":"marodimosa","habits":[{"name":"Caffeine","type":"negative","actions":[{"date":"2023-10-23T23:00:00.000Z","isDone":true},{"date":"2023-10-25T23:00:00.000Z","isDone":false},{"date":"2023-10-28T23:00:00.000Z","isDone":false},{"date":"2023-11-02T00:00:00.000Z","isDone":false},{"date":"2023-11-05T00:00:00.000Z","isDone":false},{"date":"2023-11-09T00:00:00.000Z","isDone":true},{"date":"2023-11-10T00:00:00.000Z","isDone":true},{"date":"2023-11-11T00:00:00.000Z","isDone":true},{"date":"2023-11-12T00:00:00.000Z","isDone":true},{"date":"2023-11-13T00:00:00.000Z","isDone":true},{"date":"2023-11-14T00:00:00.000Z","isDone":true},{"date":"2023-11-15T00:00:00.000Z","isDone":false},{"date":"2023-11-16T00:00:00.000Z","isDone":true},{"date":"2023-11-17T00:00:00.000Z","isDone":true},{"date":"2023-11-21T00:00:00.000Z","isDone":true},{"date":"2023-11-23T00:00:00.000Z","isDone":true}]}]},{"email":"Loren_Beatty50@yahoo.com","password":"zefuhujeru","habits":[{"name":"Eat processed foods","type":"negative","actions":[{"date":"2023-10-28T23:00:00.000Z","isDone":false},{"date":"2023-10-31T00:00:00.000Z","isDone":false},{"date":"2023-11-08T00:00:00.000Z","isDone":false},{"date":"2023-11-23T00:00:00.000Z","isDone":false}]},{"name":"Deep breathing","type":"positive","actions":[{"date":"2023-10-26T23:00:00.000Z","isDone":false},{"date":"2023-11-18T00:00:00.000Z","isDone":true},{"date":"2023-11-23T00:00:00.000Z","isDone":false}]},{"name":"Alcohol","type":"negative","actions":[{"date":"2023-10-27T23:00:00.000Z","isDone":false},{"date":"2023-10-30T00:00:00.000Z","isDone":false},{"date":"2023-11-02T00:00:00.000Z","isDone":false},{"date":"2023-11-05T00:00:00.000Z","isDone":false},{"date":"2023-11-11T00:00:00.000Z","isDone":true},{"date":"2023-11-12T00:00:00.000Z","isDone":true},{"date":"2023-11-21T00:00:00.000Z","isDone":true},{"date":"2023-11-22T00:00:00.000Z","isDone":false},{"date":"2023-11-23T00:00:00.000Z","isDone":false}]}]},{"email":"Junior_Robel-Gorczany@hotmail.com","password":"vegimixumo","habits":[{"name":"Caffeine","type":"negative","actions":[{"date":"2023-10-22T23:00:00.000Z","isDone":false},{"date":"2023-10-23T23:00:00.000Z","isDone":false},{"date":"2023-10-24T23:00:00.000Z","isDone":true},{"date":"2023-10-25T23:00:00.000Z","isDone":false},{"date":"2023-10-27T23:00:00.000Z","isDone":true},{"date":"2023-10-28T23:00:00.000Z","isDone":true},{"date":"2023-10-30T00:00:00.000Z","isDone":true},{"date":"2023-11-01T00:00:00.000Z","isDone":false},{"date":"2023-11-02T00:00:00.000Z","isDone":true},{"date":"2023-11-05T00:00:00.000Z","isDone":false},{"date":"2023-11-06T00:00:00.000Z","isDone":true},{"date":"2023-11-09T00:00:00.000Z","isDone":false},{"date":"2023-11-12T00:00:00.000Z","isDone":false},{"date":"2023-11-13T00:00:00.000Z","isDone":false},{"date":"2023-11-14T00:00:00.000Z","isDone":false},{"date":"2023-11-17T00:00:00.000Z","isDone":false},{"date":"2023-11-19T00:00:00.000Z","isDone":true},{"date":"2023-11-20T00:00:00.000Z","isDone":false},{"date":"2023-11-21T00:00:00.000Z","isDone":false},{"date":"2023-11-22T00:00:00.000Z","isDone":true},{"date":"2023-11-23T00:00:00.000Z","isDone":true}]},{"name":"Sugar","type":"negative","actions":[{"date":"2023-10-27T23:00:00.000Z","isDone":false},{"date":"2023-10-31T00:00:00.000Z","isDone":false},{"date":"2023-11-01T00:00:00.000Z","isDone":false},{"date":"2023-11-04T00:00:00.000Z","isDone":true},{"date":"2023-11-05T00:00:00.000Z","isDone":true},{"date":"2023-11-06T00:00:00.000Z","isDone":true},{"date":"2023-11-08T00:00:00.000Z","isDone":true},{"date":"2023-11-16T00:00:00.000Z","isDone":true},{"date":"2023-11-17T00:00:00.000Z","isDone":false},{"date":"2023-11-18T00:00:00.000Z","isDone":false},{"date":"2023-11-21T00:00:00.000Z","isDone":true},{"date":"2023-11-23T00:00:00.000Z","isDone":true}]},{"name":"Caffeine","type":"negative","actions":[{"date":"2023-10-22T23:00:00.000Z","isDone":false},{"date":"2023-10-30T00:00:00.000Z","isDone":true},{"date":"2023-11-01T00:00:00.000Z","isDone":true},{"date":"2023-11-08T00:00:00.000Z","isDone":true},{"date":"2023-11-11T00:00:00.000Z","isDone":true},{"date":"2023-11-12T00:00:00.000Z","isDone":false},{"date":"2023-11-14T00:00:00.000Z","isDone":true},{"date":"2023-11-15T00:00:00.000Z","isDone":false},{"date":"2023-11-23T00:00:00.000Z","isDone":false}]},{"name":"Healthy breakfast","type":"positive","actions":[{"date":"2023-10-22T23:00:00.000Z","isDone":true},{"date":"2023-10-24T23:00:00.000Z","isDone":false},{"date":"2023-10-25T23:00:00.000Z","isDone":true},{"date":"2023-10-26T23:00:00.000Z","isDone":false},{"date":"2023-10-27T23:00:00.000Z","isDone":true},{"date":"2023-10-28T23:00:00.000Z","isDone":false},{"date":"2023-10-30T00:00:00.000Z","isDone":true},{"date":"2023-10-31T00:00:00.000Z","isDone":false},{"date":"2023-11-01T00:00:00.000Z","isDone":true},{"date":"2023-11-02T00:00:00.000Z","isDone":false},{"date":"2023-11-04T00:00:00.000Z","isDone":true},{"date":"2023-11-05T00:00:00.000Z","isDone":false},{"date":"2023-11-08T00:00:00.000Z","isDone":false},{"date":"2023-11-09T00:00:00.000Z","isDone":true},{"date":"2023-11-10T00:00:00.000Z","isDone":true},{"date":"2023-11-11T00:00:00.000Z","isDone":true},{"date":"2023-11-12T00:00:00.000Z","isDone":true},{"date":"2023-11-13T00:00:00.000Z","isDone":false},{"date":"2023-11-15T00:00:00.000Z","isDone":true},{"date":"2023-11-16T00:00:00.000Z","isDone":true},{"date":"2023-11-17T00:00:00.000Z","isDone":true},{"date":"2023-11-18T00:00:00.000Z","isDone":false},{"date":"2023-11-19T00:00:00.000Z","isDone":true},{"date":"2023-11-20T00:00:00.000Z","isDone":true},{"date":"2023-11-21T00:00:00.000Z","isDone":false},{"date":"2023-11-22T00:00:00.000Z","isDone":true},{"date":"2023-11-23T00:00:00.000Z","isDone":false}]}]},{"email":"Lauriane5@hotmail.com","password":"fosatatewu","habits":[{"name":"Rise early","type":"positive","actions":[{"date":"2023-10-23T23:00:00.000Z","isDone":true},{"date":"2023-10-24T23:00:00.000Z","isDone":false},{"date":"2023-10-26T23:00:00.000Z","isDone":true},{"date":"2023-10-31T00:00:00.000Z","isDone":false},{"date":"2023-11-04T00:00:00.000Z","isDone":true},{"date":"2023-11-07T00:00:00.000Z","isDone":false},{"date":"2023-11-08T00:00:00.000Z","isDone":true},{"date":"2023-11-10T00:00:00.000Z","isDone":false},{"date":"2023-11-12T00:00:00.000Z","isDone":true},{"date":"2023-11-13T00:00:00.000Z","isDone":true},{"date":"2023-11-14T00:00:00.000Z","isDone":true},{"date":"2023-11-15T00:00:00.000Z","isDone":true},{"date":"2023-11-16T00:00:00.000Z","isDone":true},{"date":"2023-11-23T00:00:00.000Z","isDone":true}]},{"name":"Caffeine","type":"negative","actions":[{"date":"2023-10-22T23:00:00.000Z","isDone":false},{"date":"2023-10-23T23:00:00.000Z","isDone":false},{"date":"2023-10-24T23:00:00.000Z","isDone":false},{"date":"2023-10-25T23:00:00.000Z","isDone":false},{"date":"2023-10-26T23:00:00.000Z","isDone":true},{"date":"2023-10-27T23:00:00.000Z","isDone":false},{"date":"2023-10-28T23:00:00.000Z","isDone":true},{"date":"2023-10-30T00:00:00.000Z","isDone":false},{"date":"2023-10-31T00:00:00.000Z","isDone":true},{"date":"2023-11-01T00:00:00.000Z","isDone":true},{"date":"2023-11-02T00:00:00.000Z","isDone":true},{"date":"2023-11-03T00:00:00.000Z","isDone":true},{"date":"2023-11-04T00:00:00.000Z","isDone":true},{"date":"2023-11-07T00:00:00.000Z","isDone":true},{"date":"2023-11-08T00:00:00.000Z","isDone":false},{"date":"2023-11-09T00:00:00.000Z","isDone":false},{"date":"2023-11-10T00:00:00.000Z","isDone":false},{"date":"2023-11-12T00:00:00.000Z","isDone":false},{"date":"2023-11-13T00:00:00.000Z","isDone":true},{"date":"2023-11-14T00:00:00.000Z","isDone":false},{"date":"2023-11-15T00:00:00.000Z","isDone":false},{"date":"2023-11-16T00:00:00.000Z","isDone":true},{"date":"2023-11-17T00:00:00.000Z","isDone":false},{"date":"2023-11-18T00:00:00.000Z","isDone":true},{"date":"2023-11-19T00:00:00.000Z","isDone":false},{"date":"2023-11-20T00:00:00.000Z","isDone":true},{"date":"2023-11-21T00:00:00.000Z","isDone":false},{"date":"2023-11-22T00:00:00.000Z","isDone":true},{"date":"2023-11-23T00:00:00.000Z","isDone":true}]},{"name":"Caffeine","type":"negative","actions":[{"date":"2023-10-22T23:00:00.000Z","isDone":false},{"date":"2023-10-24T23:00:00.000Z","isDone":false},{"date":"2023-10-26T23:00:00.000Z","isDone":false},{"date":"2023-10-27T23:00:00.000Z","isDone":false},{"date":"2023-10-28T23:00:00.000Z","isDone":true},{"date":"2023-10-31T00:00:00.000Z","isDone":false},{"date":"2023-11-01T00:00:00.000Z","isDone":false},{"date":"2023-11-02T00:00:00.000Z","isDone":true},{"date":"2023-11-03T00:00:00.000Z","isDone":false},{"date":"2023-11-04T00:00:00.000Z","isDone":false},{"date":"2023-11-06T00:00:00.000Z","isDone":true},{"date":"2023-11-07T00:00:00.000Z","isDone":true},{"date":"2023-11-10T00:00:00.000Z","isDone":true},{"date":"2023-11-11T00:00:00.000Z","isDone":true},{"date":"2023-11-12T00:00:00.000Z","isDone":false},{"date":"2023-11-13T00:00:00.000Z","isDone":false},{"date":"2023-11-15T00:00:00.000Z","isDone":false},{"date":"2023-11-16T00:00:00.000Z","isDone":true},{"date":"2023-11-17T00:00:00.000Z","isDone":true},{"date":"2023-11-18T00:00:00.000Z","isDone":false},{"date":"2023-11-19T00:00:00.000Z","isDone":true},{"date":"2023-11-21T00:00:00.000Z","isDone":true},{"date":"2023-11-22T00:00:00.000Z","isDone":true},{"date":"2023-11-23T00:00:00.000Z","isDone":true}]},{"name":"Learning","type":"positive","actions":[{"date":"2023-10-23T23:00:00.000Z","isDone":false},{"date":"2023-10-26T23:00:00.000Z","isDone":true},{"date":"2023-10-27T23:00:00.000Z","isDone":false},{"date":"2023-10-30T00:00:00.000Z","isDone":false},{"date":"2023-11-04T00:00:00.000Z","isDone":true},{"date":"2023-11-08T00:00:00.000Z","isDone":false},{"date":"2023-11-11T00:00:00.000Z","isDone":false},{"date":"2023-11-12T00:00:00.000Z","isDone":false},{"date":"2023-11-14T00:00:00.000Z","isDone":false},{"date":"2023-11-15T00:00:00.000Z","isDone":false},{"date":"2023-11-16T00:00:00.000Z","isDone":true},{"date":"2023-11-17T00:00:00.000Z","isDone":true},{"date":"2023-11-19T00:00:00.000Z","isDone":false},{"date":"2023-11-21T00:00:00.000Z","isDone":false},{"date":"2023-11-23T00:00:00.000Z","isDone":true}]},{"name":"Multitasking","type":"negative","actions":[{"date":"2023-10-22T23:00:00.000Z","isDone":true},{"date":"2023-10-23T23:00:00.000Z","isDone":true},{"date":"2023-10-24T23:00:00.000Z","isDone":false},{"date":"2023-10-25T23:00:00.000Z","isDone":false},{"date":"2023-10-26T23:00:00.000Z","isDone":true},{"date":"2023-10-30T00:00:00.000Z","isDone":false},{"date":"2023-11-01T00:00:00.000Z","isDone":false},{"date":"2023-11-03T00:00:00.000Z","isDone":true},{"date":"2023-11-04T00:00:00.000Z","isDone":true},{"date":"2023-11-06T00:00:00.000Z","isDone":true},{"date":"2023-11-08T00:00:00.000Z","isDone":true},{"date":"2023-11-09T00:00:00.000Z","isDone":false},{"date":"2023-11-11T00:00:00.000Z","isDone":false},{"date":"2023-11-14T00:00:00.000Z","isDone":false},{"date":"2023-11-15T00:00:00.000Z","isDone":true},{"date":"2023-11-16T00:00:00.000Z","isDone":false},{"date":"2023-11-17T00:00:00.000Z","isDone":true},{"date":"2023-11-19T00:00:00.000Z","isDone":true},{"date":"2023-11-20T00:00:00.000Z","isDone":false},{"date":"2023-11-23T00:00:00.000Z","isDone":false}]}]},{"email":"Earline.Larkin@hotmail.com","password":"rigikiqahu","habits":[{"name":"Deep breathing","type":"positive","actions":[{"date":"2023-10-24T23:00:00.000Z","isDone":false},{"date":"2023-10-26T23:00:00.000Z","isDone":false},{"date":"2023-10-27T23:00:00.000Z","isDone":false},{"date":"2023-10-31T00:00:00.000Z","isDone":true},{"date":"2023-11-11T00:00:00.000Z","isDone":false},{"date":"2023-11-13T00:00:00.000Z","isDone":false},{"date":"2023-11-23T00:00:00.000Z","isDone":true}]}]},{"email":"Billy_Hane99@hotmail.com","password":"fuyiwijitu","habits":[{"name":"Caffeine","type":"negative","actions":[{"date":"2023-11-13T00:00:00.000Z","isDone":true},{"date":"2023-11-23T00:00:00.000Z","isDone":false}]},{"name":"Social connection","type":"positive","actions":[{"date":"2023-10-26T23:00:00.000Z","isDone":false},{"date":"2023-10-30T00:00:00.000Z","isDone":true},{"date":"2023-11-02T00:00:00.000Z","isDone":false},{"date":"2023-11-07T00:00:00.000Z","isDone":true},{"date":"2023-11-18T00:00:00.000Z","isDone":true},{"date":"2023-11-20T00:00:00.000Z","isDone":true},{"date":"2023-11-23T00:00:00.000Z","isDone":false}]},{"name":"Eat processed foods","type":"negative","actions":[{"date":"2023-11-02T00:00:00.000Z","isDone":false},{"date":"2023-11-13T00:00:00.000Z","isDone":false},{"date":"2023-11-23T00:00:00.000Z","isDone":false}]}]},{"email":"Marilou2@hotmail.com","password":"ripebenifo","habits":[{"name":"Plan day","type":"positive","actions":[{"date":"2023-10-22T23:00:00.000Z","isDone":false},{"date":"2023-10-23T23:00:00.000Z","isDone":true},{"date":"2023-10-24T23:00:00.000Z","isDone":false},{"date":"2023-10-25T23:00:00.000Z","isDone":true},{"date":"2023-10-27T23:00:00.000Z","isDone":false},{"date":"2023-10-28T23:00:00.000Z","isDone":false},{"date":"2023-10-30T00:00:00.000Z","isDone":false},{"date":"2023-10-31T00:00:00.000Z","isDone":true},{"date":"2023-11-02T00:00:00.000Z","isDone":true},{"date":"2023-11-06T00:00:00.000Z","isDone":true},{"date":"2023-11-07T00:00:00.000Z","isDone":true},{"date":"2023-11-08T00:00:00.000Z","isDone":true},{"date":"2023-11-09T00:00:00.000Z","isDone":true},{"date":"2023-11-10T00:00:00.000Z","isDone":true},{"date":"2023-11-11T00:00:00.000Z","isDone":false},{"date":"2023-11-13T00:00:00.000Z","isDone":false},{"date":"2023-11-14T00:00:00.000Z","isDone":false},{"date":"2023-11-15T00:00:00.000Z","isDone":true},{"date":"2023-11-16T00:00:00.000Z","isDone":true},{"date":"2023-11-17T00:00:00.000Z","isDone":true},{"date":"2023-11-18T00:00:00.000Z","isDone":false},{"date":"2023-11-20T00:00:00.000Z","isDone":true},{"date":"2023-11-23T00:00:00.000Z","isDone":true}]},{"name":"Sugar","type":"negative","actions":[{"date":"2023-10-23T23:00:00.000Z","isDone":true},{"date":"2023-10-24T23:00:00.000Z","isDone":false},{"date":"2023-10-27T23:00:00.000Z","isDone":false},{"date":"2023-10-30T00:00:00.000Z","isDone":false},{"date":"2023-11-01T00:00:00.000Z","isDone":true},{"date":"2023-11-02T00:00:00.000Z","isDone":false},{"date":"2023-11-05T00:00:00.000Z","isDone":false},{"date":"2023-11-08T00:00:00.000Z","isDone":true},{"date":"2023-11-09T00:00:00.000Z","isDone":false},{"date":"2023-11-11T00:00:00.000Z","isDone":true},{"date":"2023-11-12T00:00:00.000Z","isDone":false},{"date":"2023-11-14T00:00:00.000Z","isDone":true},{"date":"2023-11-15T00:00:00.000Z","isDone":true},{"date":"2023-11-16T00:00:00.000Z","isDone":false},{"date":"2023-11-18T00:00:00.000Z","isDone":true},{"date":"2023-11-22T00:00:00.000Z","isDone":true},{"date":"2023-11-23T00:00:00.000Z","isDone":false}]},{"name":"Mindfulness","type":"positive","actions":[{"date":"2023-10-30T00:00:00.000Z","isDone":true},{"date":"2023-11-06T00:00:00.000Z","isDone":true},{"date":"2023-11-10T00:00:00.000Z","isDone":true},{"date":"2023-11-11T00:00:00.000Z","isDone":false},{"date":"2023-11-21T00:00:00.000Z","isDone":false},{"date":"2023-11-23T00:00:00.000Z","isDone":true}]},{"name":"Healthy breakfast","type":"positive","actions":[{"date":"2023-10-23T23:00:00.000Z","isDone":false},{"date":"2023-10-31T00:00:00.000Z","isDone":true},{"date":"2023-11-04T00:00:00.000Z","isDone":false},{"date":"2023-11-07T00:00:00.000Z","isDone":true},{"date":"2023-11-11T00:00:00.000Z","isDone":true},{"date":"2023-11-21T00:00:00.000Z","isDone":true},{"date":"2023-11-23T00:00:00.000Z","isDone":true}]}]},{"email":"Vida41@gmail.com","password":"sosibosepe","habits":[{"name":"Active listening","type":"positive","actions":[{"date":"2023-10-22T23:00:00.000Z","isDone":true},{"date":"2023-10-23T23:00:00.000Z","isDone":false},{"date":"2023-10-24T23:00:00.000Z","isDone":false},{"date":"2023-10-25T23:00:00.000Z","isDone":true},{"date":"2023-10-28T23:00:00.000Z","isDone":true},{"date":"2023-10-30T00:00:00.000Z","isDone":true},{"date":"2023-11-01T00:00:00.000Z","isDone":false},{"date":"2023-11-04T00:00:00.000Z","isDone":true},{"date":"2023-11-09T00:00:00.000Z","isDone":false},{"date":"2023-11-10T00:00:00.000Z","isDone":false},{"date":"2023-11-11T00:00:00.000Z","isDone":true},{"date":"2023-11-12T00:00:00.000Z","isDone":false},{"date":"2023-11-14T00:00:00.000Z","isDone":true},{"date":"2023-11-18T00:00:00.000Z","isDone":true},{"date":"2023-11-19T00:00:00.000Z","isDone":true},{"date":"2023-11-22T00:00:00.000Z","isDone":true},{"date":"2023-11-23T00:00:00.000Z","isDone":true}]},{"name":"Alcohol","type":"negative","actions":[{"date":"2023-10-23T23:00:00.000Z","isDone":true},{"date":"2023-11-03T00:00:00.000Z","isDone":false},{"date":"2023-11-07T00:00:00.000Z","isDone":true},{"date":"2023-11-08T00:00:00.000Z","isDone":true},{"date":"2023-11-10T00:00:00.000Z","isDone":false},{"date":"2023-11-15T00:00:00.000Z","isDone":true},{"date":"2023-11-16T00:00:00.000Z","isDone":true},{"date":"2023-11-18T00:00:00.000Z","isDone":false},{"date":"2023-11-20T00:00:00.000Z","isDone":false},{"date":"2023-11-22T00:00:00.000Z","isDone":false},{"date":"2023-11-23T00:00:00.000Z","isDone":false}]},{"name":"Smoking","type":"negative","actions":[{"date":"2023-10-24T23:00:00.000Z","isDone":true},{"date":"2023-10-26T23:00:00.000Z","isDone":true},{"date":"2023-10-31T00:00:00.000Z","isDone":true},{"date":"2023-11-01T00:00:00.000Z","isDone":true},{"date":"2023-11-02T00:00:00.000Z","isDone":true},{"date":"2023-11-03T00:00:00.000Z","isDone":false},{"date":"2023-11-04T00:00:00.000Z","isDone":false},{"date":"2023-11-05T00:00:00.000Z","isDone":false},{"date":"2023-11-07T00:00:00.000Z","isDone":false},{"date":"2023-11-08T00:00:00.000Z","isDone":false},{"date":"2023-11-09T00:00:00.000Z","isDone":false},{"date":"2023-11-11T00:00:00.000Z","isDone":true},{"date":"2023-11-12T00:00:00.000Z","isDone":true},{"date":"2023-11-14T00:00:00.000Z","isDone":false},{"date":"2023-11-16T00:00:00.000Z","isDone":false},{"date":"2023-11-17T00:00:00.000Z","isDone":true},{"date":"2023-11-19T00:00:00.000Z","isDone":false},{"date":"2023-11-20T00:00:00.000Z","isDone":false},{"date":"2023-11-21T00:00:00.000Z","isDone":false},{"date":"2023-11-23T00:00:00.000Z","isDone":true}]},{"name":"Smoking","type":"negative","actions":[{"date":"2023-10-24T23:00:00.000Z","isDone":false},{"date":"2023-11-23T00:00:00.000Z","isDone":false}]},{"name":"Journal","type":"positive","actions":[{"date":"2023-10-22T23:00:00.000Z","isDone":true},{"date":"2023-10-23T23:00:00.000Z","isDone":true},{"date":"2023-10-25T23:00:00.000Z","isDone":true},{"date":"2023-10-28T23:00:00.000Z","isDone":true},{"date":"2023-10-30T00:00:00.000Z","isDone":true},{"date":"2023-10-31T00:00:00.000Z","isDone":true},{"date":"2023-11-01T00:00:00.000Z","isDone":true},{"date":"2023-11-05T00:00:00.000Z","isDone":false},{"date":"2023-11-07T00:00:00.000Z","isDone":false},{"date":"2023-11-08T00:00:00.000Z","isDone":true},{"date":"2023-11-09T00:00:00.000Z","isDone":true},{"date":"2023-11-10T00:00:00.000Z","isDone":true},{"date":"2023-11-11T00:00:00.000Z","isDone":true},{"date":"2023-11-13T00:00:00.000Z","isDone":true},{"date":"2023-11-16T00:00:00.000Z","isDone":true},{"date":"2023-11-17T00:00:00.000Z","isDone":false},{"date":"2023-11-20T00:00:00.000Z","isDone":false},{"date":"2023-11-21T00:00:00.000Z","isDone":true},{"date":"2023-11-22T00:00:00.000Z","isDone":false},{"date":"2023-11-23T00:00:00.000Z","isDone":true}]}]}]
+[
+  {
+    "email": "Kamryn_Hickle@hotmail.com",
+    "password": "RAD4jfHYwZaZBnOr",
+    "habits": [
+      {
+        "name": "Gratitude",
+        "type": "positive",
+        "actions": [
+          { "date": "2023-10-24T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-26T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-28T23:00:00.000Z", "isDone": false },
+          { "date": "2023-11-12T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-19T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-20T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-22T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-24T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": false }
+        ]
+      },
+      {
+        "name": "Multitasking",
+        "type": "negative",
+        "actions": [
+          { "date": "2023-10-24T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-25T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-26T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-28T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-30T00:00:00.000Z", "isDone": false },
+          { "date": "2023-10-31T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-02T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-03T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-04T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-05T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-07T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-09T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-10T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-11T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-13T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-14T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-17T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-18T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-19T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-21T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-22T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-23T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-24T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": true }
+        ]
+      },
+      {
+        "name": "Smoking",
+        "type": "negative",
+        "actions": [
+          { "date": "2023-10-26T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-27T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-28T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-30T00:00:00.000Z", "isDone": true },
+          { "date": "2023-10-31T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-01T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-02T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-03T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-04T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-05T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-06T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-08T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-09T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-10T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-13T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-15T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-16T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-17T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-18T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-19T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-20T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-21T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-22T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-23T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": false }
+        ]
+      }
+    ]
+  },
+  {
+    "email": "Braxton69@hotmail.com",
+    "password": "Ymr2354ogrMihAu2FoqckL",
+    "habits": [
+      {
+        "name": "Active listening",
+        "type": "positive",
+        "actions": [
+          { "date": "2023-10-25T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-27T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-28T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-31T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-05T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-06T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-07T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-08T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-09T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-10T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-12T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-13T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-15T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-17T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-20T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-21T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-22T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-24T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": true }
+        ]
+      },
+      {
+        "name": "Sugar",
+        "type": "negative",
+        "actions": [
+          { "date": "2023-10-25T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-26T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-27T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-28T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-30T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-01T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-02T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-04T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-06T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-08T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-09T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-10T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-11T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-12T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-14T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-18T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-19T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-20T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-21T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-22T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": false }
+        ]
+      },
+      {
+        "name": "Take breaks",
+        "type": "positive",
+        "actions": [
+          { "date": "2023-10-24T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-25T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-28T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-30T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-01T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-02T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-03T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-07T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-08T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-10T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-11T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-12T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-15T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-17T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-19T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-22T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-23T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": true }
+        ]
+      },
+      {
+        "name": "Caffeine",
+        "type": "negative",
+        "actions": [
+          { "date": "2023-10-25T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-26T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-28T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-30T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-02T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-03T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-06T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-07T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-08T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-16T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-18T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-19T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-23T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-24T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": true }
+        ]
+      },
+      {
+        "name": "Smoking",
+        "type": "negative",
+        "actions": [
+          { "date": "2023-10-26T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-27T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-30T00:00:00.000Z", "isDone": false },
+          { "date": "2023-10-31T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-01T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-02T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-05T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-10T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-11T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-13T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-17T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-19T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-22T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-23T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-24T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": false }
+        ]
+      }
+    ]
+  },
+  {
+    "email": "Willa.Feil@hotmail.com",
+    "password": "AytXUnRpNredqZ9pKZlYrSUI5Kmw7M",
+    "habits": [
+      {
+        "name": "Smoking",
+        "type": "negative",
+        "actions": [
+          { "date": "2023-10-27T23:00:00.000Z", "isDone": false },
+          { "date": "2023-11-01T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-02T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-03T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-04T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-05T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-07T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-12T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-13T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-16T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-17T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-20T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-21T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-24T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": false }
+        ]
+      }
+    ]
+  },
+  {
+    "email": "Susan6@yahoo.com",
+    "password": "D8ZRPexqzdBmu9Ib9vKUtOOq",
+    "habits": [
+      {
+        "name": "Multitasking",
+        "type": "negative",
+        "actions": [
+          { "date": "2023-11-07T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-10T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-15T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": false }
+        ]
+      },
+      {
+        "name": "Hydrate",
+        "type": "positive",
+        "actions": [
+          { "date": "2023-10-24T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-25T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-26T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-27T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-30T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-01T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-02T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-03T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-04T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-05T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-07T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-08T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-09T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-10T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-11T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-12T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-13T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-14T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-15T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-16T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-17T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-18T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-19T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-20T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-21T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-22T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-23T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-24T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": true }
+        ]
+      },
+      {
+        "name": "Smoking",
+        "type": "negative",
+        "actions": [
+          { "date": "2023-10-24T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-25T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-26T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-27T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-28T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-30T00:00:00.000Z", "isDone": true },
+          { "date": "2023-10-31T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-01T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-02T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-04T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-05T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-06T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-07T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-08T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-09T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-10T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-11T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-12T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-13T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-14T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-15T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-17T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-18T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-19T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-20T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-21T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-22T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-23T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": false }
+        ]
+      },
+      {
+        "name": "Hydrate",
+        "type": "positive",
+        "actions": [
+          { "date": "2023-10-24T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-25T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-27T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-28T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-30T00:00:00.000Z", "isDone": true },
+          { "date": "2023-10-31T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-01T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-02T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-03T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-04T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-05T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-06T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-07T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-08T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-12T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-13T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-16T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-18T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-21T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-22T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-23T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-24T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": true }
+        ]
+      },
+      {
+        "name": "Smoking",
+        "type": "negative",
+        "actions": [
+          { "date": "2023-10-24T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-26T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-27T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-31T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-04T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-06T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-07T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-09T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-13T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-14T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-16T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-17T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-18T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-19T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-21T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-22T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": true }
+        ]
+      }
+    ]
+  },
+  {
+    "email": "Ariane_Lakin@hotmail.com",
+    "password": "v4YFzTucIH_Bc6xGMl",
+    "habits": [
+      {
+        "name": "Active listening",
+        "type": "positive",
+        "actions": [
+          { "date": "2023-10-24T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-26T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-28T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-30T00:00:00.000Z", "isDone": true },
+          { "date": "2023-10-31T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-02T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-04T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-05T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-06T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-07T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-08T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-09T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-11T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-12T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-13T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-14T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-15T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-16T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-17T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-18T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-19T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-20T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-22T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-23T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-24T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": true }
+        ]
+      },
+      {
+        "name": "Social connection",
+        "type": "positive",
+        "actions": [
+          { "date": "2023-10-24T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-25T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-26T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-28T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-30T00:00:00.000Z", "isDone": true },
+          { "date": "2023-10-31T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-02T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-03T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-04T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-05T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-06T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-07T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-08T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-10T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-11T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-13T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-14T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-15T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-17T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-18T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-20T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-21T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-22T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": false }
+        ]
+      }
+    ]
+  },
+  {
+    "email": "Edward_Wisozk@yahoo.com",
+    "password": "4WwrhsZFrKZOl2Bfn7y5eDkDS7c_fE",
+    "habits": [
+      {
+        "name": "Hydrate",
+        "type": "positive",
+        "actions": [
+          { "date": "2023-10-25T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-26T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-27T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-28T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-30T00:00:00.000Z", "isDone": false },
+          { "date": "2023-10-31T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-01T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-02T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-04T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-05T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-07T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-08T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-09T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-10T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-11T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-12T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-13T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-14T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-15T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-16T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-17T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-18T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-20T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-22T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-23T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-24T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": false }
+        ]
+      },
+      {
+        "name": "Sugar",
+        "type": "negative",
+        "actions": [
+          { "date": "2023-11-01T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-05T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-08T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-09T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-10T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": false }
+        ]
+      },
+      {
+        "name": "Sugar",
+        "type": "negative",
+        "actions": [
+          { "date": "2023-10-24T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-30T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-12T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-13T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-14T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-18T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-20T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-23T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": false }
+        ]
+      },
+      {
+        "name": "Sugar",
+        "type": "negative",
+        "actions": [
+          { "date": "2023-10-25T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-27T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-30T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-05T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-08T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-09T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-18T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-22T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": false }
+        ]
+      }
+    ]
+  },
+  {
+    "email": "Adolfo_Littel43@hotmail.com",
+    "password": "il4wu2RCKmyrHArUX",
+    "habits": [
+      {
+        "name": "Declutter",
+        "type": "positive",
+        "actions": [
+          { "date": "2023-11-20T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-22T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": false }
+        ]
+      },
+      {
+        "name": "Social connection",
+        "type": "positive",
+        "actions": [
+          { "date": "2023-10-26T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-27T23:00:00.000Z", "isDone": false },
+          { "date": "2023-11-02T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-08T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-09T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-16T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-18T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-20T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": true }
+        ]
+      },
+      {
+        "name": "Exercise",
+        "type": "positive",
+        "actions": [
+          { "date": "2023-10-27T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-28T23:00:00.000Z", "isDone": false },
+          { "date": "2023-11-05T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-07T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-18T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-20T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-21T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-23T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": true }
+        ]
+      },
+      {
+        "name": "Declutter",
+        "type": "positive",
+        "actions": [
+          { "date": "2023-10-25T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-26T23:00:00.000Z", "isDone": true },
+          { "date": "2023-11-05T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-09T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-17T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-20T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": true }
+        ]
+      },
+      {
+        "name": "Hydrate",
+        "type": "positive",
+        "actions": [
+          { "date": "2023-10-25T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-26T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-27T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-30T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-01T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-02T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-03T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-04T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-05T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-06T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-07T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-08T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-09T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-10T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-11T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-12T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-13T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-14T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-15T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-16T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-17T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-18T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-20T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-21T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-23T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-24T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": false }
+        ]
+      }
+    ]
+  },
+  {
+    "email": "Anika83@hotmail.com",
+    "password": "A0nO0B8aK83iMtFTt8zh_brGU",
+    "habits": [
+      {
+        "name": "Multitasking",
+        "type": "negative",
+        "actions": [
+          { "date": "2023-10-25T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-31T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-04T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-06T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-13T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-21T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-23T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": true }
+        ]
+      },
+      {
+        "name": "Rise early",
+        "type": "positive",
+        "actions": [
+          { "date": "2023-10-24T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-26T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-27T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-30T00:00:00.000Z", "isDone": true },
+          { "date": "2023-10-31T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-01T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-02T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-03T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-04T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-05T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-06T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-07T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-08T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-09T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-11T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-12T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-14T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-15T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-16T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-17T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-18T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-19T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-20T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-21T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-22T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-24T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": true }
+        ]
+      }
+    ]
+  },
+  {
+    "email": "Khalid12@hotmail.com",
+    "password": "GpKnRnNLqdvDw7wTOXsE",
+    "habits": [
+      {
+        "name": "Alcohol",
+        "type": "negative",
+        "actions": [
+          { "date": "2023-10-30T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-08T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-09T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": true }
+        ]
+      },
+      {
+        "name": "Mindfulness",
+        "type": "positive",
+        "actions": [
+          { "date": "2023-10-24T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-25T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-26T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-27T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-28T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-30T00:00:00.000Z", "isDone": true },
+          { "date": "2023-10-31T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-01T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-02T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-03T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-04T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-05T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-07T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-08T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-09T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-10T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-11T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-12T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-13T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-14T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-15T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-16T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-18T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-19T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-20T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-21T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-23T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-24T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": false }
+        ]
+      }
+    ]
+  },
+  {
+    "email": "Laney_Roob29@gmail.com",
+    "password": "Nw0AbQhBkxfHGYB06Rf5_",
+    "habits": [
+      {
+        "name": "Smoking",
+        "type": "negative",
+        "actions": [
+          { "date": "2023-10-24T23:00:00.000Z", "isDone": true },
+          { "date": "2023-10-25T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-26T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-27T23:00:00.000Z", "isDone": false },
+          { "date": "2023-10-30T00:00:00.000Z", "isDone": true },
+          { "date": "2023-10-31T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-01T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-03T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-04T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-05T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-06T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-07T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-08T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-09T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-10T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-11T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-12T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-13T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-14T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-15T00:00:00.000Z", "isDone": false },
+          { "date": "2023-11-16T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-17T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-18T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-19T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-23T00:00:00.000Z", "isDone": true },
+          { "date": "2023-11-25T00:00:00.000Z", "isDone": false }
+        ]
+      }
+    ]
+  }
+]
