@@ -5,9 +5,10 @@ const habitTypes = ["positive", "negative"];
 
 // Adjust settings to create different amounts of data. The full number of
 // users is generated and each user has a random number of habits, each with a
-// random number of actions, up to the specified maximums.
-const testSettings = { users: 3, maxHabits: 5, maxActions: 30 };
-const devSettings = { users: 10, maxHabits: 5, maxActions: 30 };
+// random number of habits between minHabits and maxHabits, and a random number
+// of actions up to maxActions (inclusive).
+const testSettings = { users: 3, minHabits: 3, maxHabits: 5, maxActions: 30 };
+const devSettings = { users: 10, minHabits: 0, maxHabits: 6, maxActions: 30 };
 
 const testData = generateData(testSettings);
 fs.writeFile(`${__dirname}/data.test.json`, JSON.stringify(testData));
@@ -15,7 +16,7 @@ fs.writeFile(`${__dirname}/data.test.json`, JSON.stringify(testData));
 const devData = generateData(devSettings);
 fs.writeFile(`${__dirname}/data.development.json`, JSON.stringify(devData));
 
-function generateData({ users, maxHabits, maxActions }) {
+function generateData({ users, minHabits, maxHabits, maxActions }) {
   const data = [];
   for (let i = 0; i < users; i++) {
     const passwordLength = Math.floor(Math.random() * 23 + 8);
@@ -31,7 +32,7 @@ function generateData({ users, maxHabits, maxActions }) {
       habits: [],
     };
 
-    const numberOfHabits = Math.floor(Math.random() * maxHabits + 1);
+    const numberOfHabits = Math.floor(Math.random() * (maxHabits - minHabits + 1) + minHabits);
     for (let j = 0; j < numberOfHabits; j++) {
       const newHabitType = habitTypes[Math.floor(Math.random() * 2)];
       const habitNamesOfType = habitNames[newHabitType];

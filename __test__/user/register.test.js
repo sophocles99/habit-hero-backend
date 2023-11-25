@@ -9,14 +9,14 @@ beforeEach(async () => await seed());
 
 afterAll(async () => await mongoose.connection.close());
 
-describe("POST /api/user/register", () => {
+describe("POST /api/users/register", () => {
   test("201 - registers new user and returns message", () => {
     const newUser = {
       email: "newuser@email.com",
       password: "Password123",
     };
     return request(app)
-      .post("/api/user/register")
+      .post("/api/users/register")
       .send(newUser)
       .expect(201)
       .then(({ body }) => {
@@ -30,7 +30,7 @@ describe("POST /api/user/register", () => {
       password: "Password123",
     };
     return request(app)
-      .post("/api/user/register")
+      .post("/api/users/register")
       .send(newUser)
       .expect(201)
       .then(({ body }) => {
@@ -50,7 +50,7 @@ describe("POST /api/user/register", () => {
       password: testData[0].password,
     };
     return request(app)
-      .post("/api/user/register")
+      .post("/api/users/register")
       .send(newUser)
       .expect(409)
       .then(({ body }) => {
@@ -63,7 +63,7 @@ describe("POST /api/user/register", () => {
       password: "Password123",
     };
     return request(app)
-      .post("/api/user/register")
+      .post("/api/users/register")
       .send(newUser)
       .expect(400)
       .then(({ body }) => {
@@ -77,7 +77,7 @@ describe("POST /api/user/register", () => {
       password: "Password123",
     };
     return request(app)
-      .post("/api/user/register")
+      .post("/api/users/register")
       .send(newUser)
       .expect(400)
       .then(({ body }) => {
@@ -91,7 +91,7 @@ describe("POST /api/user/register", () => {
       password: "Password123",
     };
     return request(app)
-      .post("/api/user/register")
+      .post("/api/users/register")
       .send(newUser)
       .expect(400)
       .then(({ body }) => {
@@ -104,7 +104,7 @@ describe("POST /api/user/register", () => {
       email: "newuser@email.com",
     };
     return request(app)
-      .post("/api/user/register")
+      .post("/api/users/register")
       .send(newUser)
       .expect(400)
       .then(({ body }) => {
@@ -118,7 +118,7 @@ describe("POST /api/user/register", () => {
       password: "",
     };
     return request(app)
-      .post("/api/user/register")
+      .post("/api/users/register")
       .send(newUser)
       .expect(400)
       .then(({ body }) => {
@@ -132,7 +132,7 @@ describe("POST /api/user/register", () => {
       password: "Pwor123",
     };
     return request(app)
-      .post("/api/user/register")
+      .post("/api/users/register")
       .send(newUser)
       .expect(400)
       .then(({ body }) => {
@@ -146,7 +146,7 @@ describe("POST /api/user/register", () => {
       password: "MyVeryLongPassword1234567890*&^",
     };
     return request(app)
-      .post("/api/user/register")
+      .post("/api/users/register")
       .send(newUser)
       .expect(400)
       .then(({ body }) => {
@@ -162,7 +162,7 @@ describe("POST /api/user/register", () => {
       password: "PASSWORD123",
     };
     return request(app)
-      .post("/api/user/register")
+      .post("/api/users/register")
       .send(newUser)
       .expect(400)
       .then(({ body }) => {
@@ -178,7 +178,7 @@ describe("POST /api/user/register", () => {
       password: "password123",
     };
     return request(app)
-      .post("/api/user/register")
+      .post("/api/users/register")
       .send(newUser)
       .expect(400)
       .then(({ body }) => {
@@ -194,7 +194,7 @@ describe("POST /api/user/register", () => {
       password: "Password",
     };
     return request(app)
-      .post("/api/user/register")
+      .post("/api/users/register")
       .send(newUser)
       .expect(400)
       .then(({ body }) => {

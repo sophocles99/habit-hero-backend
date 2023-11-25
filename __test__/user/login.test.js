@@ -9,14 +9,14 @@ beforeEach(async () => await seed());
 
 afterAll(async () => await mongoose.connection.close());
 
-describe.only("POST /api/user/login", () => {
+describe.only("POST /api/users/login", () => {
   test("200 - logs user in and returns message", () => {
     const user = {
       email: testData[0].email,
       password: testData[0].password,
     };
     return request(app)
-      .post("/api/user/login")
+      .post("/api/users/login")
       .send(user)
       .expect(200)
       .then(({ body }) => {
@@ -30,7 +30,7 @@ describe.only("POST /api/user/login", () => {
       password: testData[0].password,
     };
     return request(app)
-      .post("/api/user/login")
+      .post("/api/users/login")
       .send(user)
       .expect(200)
       .then(({ body }) => {
@@ -50,7 +50,7 @@ describe.only("POST /api/user/login", () => {
   //     password: testData[0].password,
   //   };
   //   return request(app)
-  //     .post("/api/user/login")
+  //     .post("/api/users/login")
   //     .send(user)
   //     .expect(200)
   //     .then((response) => {
