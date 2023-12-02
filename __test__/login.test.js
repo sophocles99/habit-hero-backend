@@ -1,3 +1,4 @@
+const cookie = require("cookie");
 const jwt = require("jsonwebtoken");
 const mongoose = require("mongoose");
 const request = require("supertest");
@@ -44,17 +45,25 @@ describe.only("POST /api/users/login", () => {
         expect(mongoose.Types.ObjectId.isValid(_id)).toBe(true);
       });
   });
-  // test("200 - returns cookie containing JWT refreshToken containing id of logged-in user", () => {
-  //   const user = {
-  //     email: testData[0].email,
-  //     password: testData[0].password,
-  //   };
-  //   return request(app)
-  //     .post("/api/users/login")
-  //     .send(user)
-  //     .expect(200)
-  //     .then((response) => {
-  //       console.log(response.headers['set-cookie'])
-  //     });
-  // });
+  test("200 - returns cookie containing JWT refreshToken containing id of logged-in user", () => {
+    const user = {
+      email: testData[0].email,
+      password: testData[0].password,
+    };
+    return request(app)
+      .post("/api/users/login")
+      .send(user)
+      .expect(200)
+      .then((response) => {
+        const cookies = response.headers["set-cookie"].map(cookie.parse);
+        const refreshTokenCookie = cookies.find((cookie) =>
+          Object.hasOwn(cookie, "jwt")
+        );
+        const refreshToken = refreshTokenCookie.jwt;
+        const decodedToken = jwt.verify(refreshToken, "testRefreshTokenSecret");
+        expect(decodedToken).toHaveProperty("_id");
+        const { _id } = decodedToken;
+        expect(mongoose.Types.ObjectId.isValid(_id)).toBe(true);
+      });
+  });
 });

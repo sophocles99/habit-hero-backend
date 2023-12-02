@@ -13,7 +13,7 @@ const userSchema = new mongoose.Schema({
     unique: true,
   },
   password: { type: String, minlength: 8, maxlength: 60, required: true },
-  habits: { type: [habitSchema], default: [] },
+  habits: [habitSchema],
 });
 
 userSchema.methods.hashPassword = async function () {
