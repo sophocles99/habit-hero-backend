@@ -7,7 +7,7 @@ const register = async (req, res) => {
     return res.status(400).send({ error: error.details[0].message });
   }
 
-  const { email, password } = req.body;
+  const { email, name, password } = req.body;
   let user = await User.findOne({ email });
   if (user) {
     return res
@@ -15,7 +15,7 @@ const register = async (req, res) => {
       .send({ error: "Email address is already registered" });
   }
 
-  user = new User({ email, password });
+  user = new User({ email, name, password });
   try {
     await user.hashPassword();
     await user.save();

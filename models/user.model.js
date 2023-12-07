@@ -12,6 +12,7 @@ const userSchema = new mongoose.Schema({
     required: true,
     unique: true,
   },
+  name: { type: String, minlength: 2, maxlength: 20 },
   password: { type: String, minlength: 8, maxlength: 60, required: true },
   habits: [habitSchema],
 });
@@ -47,6 +48,11 @@ const validateUser = (user) => {
       "any.empty": "Email is required",
       "string.email": "Email must be a valid email address",
     }),
+    name: Joi.string()
+      .min(2)
+      .message("Name must be at least two characters long")
+      .max(20)
+      .message("Name must not be more than 20 characters long"),
     password: Joi.string()
       .required()
       .empty("")
@@ -69,7 +75,7 @@ const validateUser = (user) => {
       .messages({
         "any.required": "Password is required",
         "any.empty": "Password is required",
-        "string.min": "Password must be at least 8 characters long",
+        "string.min": "Password must be at least eight characters long",
         "string.max": "Password must not be more than 30 characters long",
       }),
   });
