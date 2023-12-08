@@ -11,7 +11,7 @@ describe("GET /", () => {
       .get("/notanendpoint")
       .expect(404)
       .then(({ body }) =>
-        expect(body.error).toBe("Sorry, that page does not exist")
+        expect(body.errorMessage).toBe("Sorry, that page does not exist")
       );
   });
 });

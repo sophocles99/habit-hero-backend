@@ -11,7 +11,7 @@ app.use(express.json());
 app.use("/api", apiRouter);
 
 app.all("*", (req, res) => {
-  res.status(404).send({ error: "Sorry, that page does not exist" });
+  res.status(404).send({ errorMessage: "Sorry, that page does not exist" });
 });
 
 module.exports = app;

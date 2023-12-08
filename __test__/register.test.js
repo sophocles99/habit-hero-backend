@@ -76,8 +76,8 @@ describe("POST /api/users/register", () => {
       .send(newUser)
       .expect(409)
       .then(({ body }) => {
-        expect(body).toHaveProperty("error");
-        expect(body.error).toBe("Email address is already registered");
+        expect(body).toHaveProperty("errorMessage");
+        expect(body.errorMessage).toBe("Email address is already registered");
       });
   });
   test("400 - returns error if email is not provided", () => {
@@ -89,8 +89,8 @@ describe("POST /api/users/register", () => {
       .send(newUser)
       .expect(400)
       .then(({ body }) => {
-        expect(body).toHaveProperty("error");
-        expect(body.error).toBe("Email is required");
+        expect(body).toHaveProperty("errorMessage");
+        expect(body.errorMessage).toBe("Email is required");
       });
   });
   test("400 - returns error if email is empty", () => {
@@ -103,8 +103,8 @@ describe("POST /api/users/register", () => {
       .send(newUser)
       .expect(400)
       .then(({ body }) => {
-        expect(body).toHaveProperty("error");
-        expect(body.error).toBe("Email is required");
+        expect(body).toHaveProperty("errorMessage");
+        expect(body.errorMessage).toBe("Email is required");
       });
   });
   test("400 - returns error if email is invalid", () => {
@@ -117,8 +117,8 @@ describe("POST /api/users/register", () => {
       .send(newUser)
       .expect(400)
       .then(({ body }) => {
-        expect(body).toHaveProperty("error");
-        expect(body.error).toBe("Email must be a valid email address");
+        expect(body).toHaveProperty("errorMessage");
+        expect(body.errorMessage).toBe("Email must be a valid email address");
       });
   });
   test("400 - returns error if password is not provided", () => {
@@ -130,8 +130,8 @@ describe("POST /api/users/register", () => {
       .send(newUser)
       .expect(400)
       .then(({ body }) => {
-        expect(body).toHaveProperty("error");
-        expect(body.error).toBe("Password is required");
+        expect(body).toHaveProperty("errorMessage");
+        expect(body.errorMessage).toBe("Password is required");
       });
   });
   test("400 - returns error if password is empty", () => {
@@ -144,11 +144,11 @@ describe("POST /api/users/register", () => {
       .send(newUser)
       .expect(400)
       .then(({ body }) => {
-        expect(body).toHaveProperty("error");
-        expect(body.error).toBe("Password is required");
+        expect(body).toHaveProperty("errorMessage");
+        expect(body.errorMessage).toBe("Password is required");
       });
   });
-  test("400 - returns error if password contains fewer than 8 characters", () => {
+  test("400 - returns error if password contains fewer than eight characters", () => {
     const newUser = {
       email: "newuser@email.com",
       password: "Pwor123",
@@ -158,8 +158,8 @@ describe("POST /api/users/register", () => {
       .send(newUser)
       .expect(400)
       .then(({ body }) => {
-        expect(body).toHaveProperty("error");
-        expect(body.error).toBe("Password must be at least 8 characters long");
+        expect(body).toHaveProperty("errorMessage");
+        expect(body.errorMessage).toBe("Password must be at least eight characters long");
       });
   });
   test("400 - returns error if password contains more than 30 characters", () => {
@@ -172,8 +172,8 @@ describe("POST /api/users/register", () => {
       .send(newUser)
       .expect(400)
       .then(({ body }) => {
-        expect(body).toHaveProperty("error");
-        expect(body.error).toBe(
+        expect(body).toHaveProperty("errorMessage");
+        expect(body.errorMessage).toBe(
           "Password must not be more than 30 characters long"
         );
       });
@@ -188,8 +188,8 @@ describe("POST /api/users/register", () => {
       .send(newUser)
       .expect(400)
       .then(({ body }) => {
-        expect(body).toHaveProperty("error");
-        expect(body.error).toBe(
+        expect(body).toHaveProperty("errorMessage");
+        expect(body.errorMessage).toBe(
           "Password must include at least one lowercase letter"
         );
       });
@@ -204,8 +204,8 @@ describe("POST /api/users/register", () => {
       .send(newUser)
       .expect(400)
       .then(({ body }) => {
-        expect(body).toHaveProperty("error");
-        expect(body.error).toBe(
+        expect(body).toHaveProperty("errorMessage");
+        expect(body.errorMessage).toBe(
           "Password must include at least one uppercase letter"
         );
       });
@@ -220,8 +220,8 @@ describe("POST /api/users/register", () => {
       .send(newUser)
       .expect(400)
       .then(({ body }) => {
-        expect(body).toHaveProperty("error");
-        expect(body.error).toBe("Password must include at least one digit");
+        expect(body).toHaveProperty("errorMessage");
+        expect(body.errorMessage).toBe("Password must include at least one digit");
       });
   });
 });
