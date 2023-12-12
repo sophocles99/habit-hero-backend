@@ -1,11 +1,23 @@
 const bcrypt = require("bcrypt");
-const { User, validateUser } = require("../models/user.model");
+const { User, validateEmail, validateUser } = require("../models/user.model");
 
-const register = async (req, res) => {
-  const { error } = validateUser(req.body);
+const checkEmail = async (req, res) => {
+  const { email } = req.body;
+  const { error } = validateEmail(email);
   if (error) {
     return res.status(400).send({ errorMessage: error.details[0].message });
   }
+  let user = await User.findOne({ email });
+  if (user) {
+    return res
+      .status(409)
+      .send({ errorMessage: "Email address is already registered" });
+  }
+  return res.send({ message: "Email address is available" });
+};
+
+const register = async (req, res) => {
+  const { error } = validateUser(req.body);
 
   const { email, name, password } = req.body;
   let user = await User.findOne({ email });
@@ -26,7 +38,7 @@ const register = async (req, res) => {
     });
     res.status(201).send({ message: "New user registered", accessToken });
   } catch (error) {
-    console.log(error)
+    console.log(error);
     return res.status(500).send({ errorMessage: error.message });
   }
 };
@@ -46,7 +58,9 @@ const login = async (req, res) => {
   try {
     const isValidPassword = await bcrypt.compare(password, user.password);
     if (!isValidPassword) {
-      return res.status(400).send({ errorMessage: "Invalid email or password" });
+      return res
+        .status(400)
+        .send({ errorMessage: "Invalid email or password" });
     }
     const { accessToken, refreshToken } = user.generateTokens();
     res.cookie("jwt", refreshToken, {
@@ -55,9 +69,9 @@ const login = async (req, res) => {
     });
     res.send({ message: "User logged in", accessToken });
   } catch (error) {
-    console.log(error)
+    console.log(error);
     return res.status(500).send({ errorMessage: error.message });
   }
 };
 
-module.exports = { register, login };
+module.exports = { checkEmail, register, login };

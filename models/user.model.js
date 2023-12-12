@@ -41,6 +41,15 @@ userSchema.methods.generateTokens = function () {
 
 const User = mongoose.model("User", userSchema);
 
+const validateEmail = (email) => {
+  const schema = Joi.string().required().empty("").email().messages({
+    "any.required": "Email is required",
+    "any.empty": "Email is required",
+    "string.email": "Email must be a valid email address",
+  });
+  return schema.validate(email);
+};
+
 const validateUser = (user) => {
   const schema = Joi.object({
     email: Joi.string().required().empty("").email().messages({
@@ -82,4 +91,4 @@ const validateUser = (user) => {
   return schema.validate(user);
 };
 
-module.exports = { User, validateUser };
+module.exports = { User, validateEmail, validateUser };
