@@ -67,7 +67,7 @@ const login = async (req, res) => {
       httpOnly: true,
       maxAge: 24 * 60 * 60 * 1000,
     });
-    res.send({ message: "User logged in", accessToken });
+    res.send({ message: "User logged in", name: user.name, accessToken });
   } catch (error) {
     console.log(error);
     return res.status(500).send({ errorMessage: error.message });
