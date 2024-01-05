@@ -18,6 +18,9 @@ const checkEmail = async (req, res) => {
 
 const register = async (req, res) => {
   const { error } = validateUser(req.body);
+  if (error) {
+    return res.status(400).send({ errorMessage: error.details[0].message });
+  }
 
   const { email, name, password } = req.body;
   let user = await User.findOne({ email });
@@ -26,8 +29,8 @@ const register = async (req, res) => {
       .status(409)
       .send({ errorMessage: "Email address is already registered" });
   }
-
   user = new User({ email, name, password });
+
   try {
     await user.hashPassword();
     await user.save();
@@ -67,7 +70,7 @@ const login = async (req, res) => {
       httpOnly: true,
       maxAge: 24 * 60 * 60 * 1000,
     });
-    res.send({ message: "User logged in", name: user.name, accessToken });
+    res.send({ message: "User logged in", accessToken });
   } catch (error) {
     console.log(error);
     return res.status(500).send({ errorMessage: error.message });
