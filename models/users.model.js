@@ -2,7 +2,7 @@ const bcrypt = require("bcrypt");
 const Joi = require("joi");
 const jwt = require("jsonwebtoken");
 const mongoose = require("mongoose");
-const { habitSchema } = require("./habit.model");
+const { habitSchema } = require("./habits.model");
 
 const userSchema = new mongoose.Schema({
   email: {

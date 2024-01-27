@@ -1,5 +1,5 @@
 const bcrypt = require("bcrypt");
-const { User, validateEmail, validateUser } = require("../models/user.model");
+const { User, validateEmail, validateUser } = require("../models/users.model");
 
 const checkEmail = async (req, res) => {
   const { email } = req.body;

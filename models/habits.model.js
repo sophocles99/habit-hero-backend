@@ -1,6 +1,6 @@
 const Joi = require("joi");
 const mongoose = require("mongoose");
-const { actionSchema } = require("./action.model");
+const { actionSchema } = require("./actions.model");
 
 const habitSchema = new mongoose.Schema({
   name: { type: String, minlength: 3, maxlength: 20, required: true },
