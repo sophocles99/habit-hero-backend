@@ -36,12 +36,7 @@ const register = async (req, res) => {
   try {
     await user.hashPassword();
     await user.save();
-    const { accessToken, refreshToken } = user.generateTokens();
-    res.cookie("jwt", refreshToken, {
-      httpOnly: true,
-      maxAge: 24 * 60 * 60 * 1000,
-    });
-    res.status(201).send({ message: "New user registered", accessToken });
+    res.status(201).send({ message: "New user registered" });
   } catch (error) {
     console.log(error);
     return res.status(500).send({ errorMessage: error.message });
