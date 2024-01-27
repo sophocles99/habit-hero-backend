@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const connection = mongoose.connection;
-const { User } = require("../models/user.model");
+const { User } = require("../models/users.model");
 const ENV = process.env.NODE_ENV || "development";
 const data = require(`./data/data.${ENV}.json`);
 

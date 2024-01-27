@@ -17,18 +17,20 @@ const checkEmail = async (req, res) => {
 };
 
 const register = async (req, res) => {
-  const { error } = validateUser(req.body);
-  if (error) {
-    return res.status(400).send({ errorMessage: error.details[0].message });
-  }
-
-  const { email, name, password } = req.body;
+  const { email } = req.body;
   let user = await User.findOne({ email });
   if (user) {
     return res
       .status(409)
       .send({ errorMessage: "Email address is already registered" });
   }
+
+  const { error } = validateUser(req.body);
+  if (error) {
+    return res.status(400).send({ errorMessage: error.details[0].message });
+  }
+
+  const { name, password } = req.body;
   user = new User({ email, name, password });
 
   try {
