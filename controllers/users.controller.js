@@ -44,11 +44,6 @@ const register = async (req, res) => {
 };
 
 const login = async (req, res) => {
-  const { error } = validateUser(req.body);
-  if (error) {
-    return res.status(400).send({ errorMessage: error.details[0].message });
-  }
-
   const { email, password } = req.body;
   let user = await User.findOne({ email });
   if (!user) {
