@@ -47,14 +47,14 @@ const login = async (req, res) => {
   const { email, password } = req.body;
   let user = await User.findOne({ email });
   if (!user) {
-    return res.status(400).send({ errorMessage: "Invalid email or password" });
+    return res.status(401).send({ errorMessage: "Invalid email or password" });
   }
 
   try {
     const isValidPassword = await bcrypt.compare(password, user.password);
     if (!isValidPassword) {
       return res
-        .status(400)
+        .status(401)
         .send({ errorMessage: "Invalid email or password" });
     }
     const { accessToken, refreshToken } = user.generateTokens();
